@@ -35,7 +35,7 @@
             <div class="content">
                 <h3>Нуралы под кайфом</h3>
                 <p>Ищу парня не только для общения) Нуралы.виц</p>
-                <a href="#" class="btn">Заказать</a>
+                <a href="mbank://" class="btn">Заказать</a>
             </div>
         </div>
 
@@ -89,6 +89,12 @@
 <footer>
     <p>© 2026</p>
 </footer>
-
+<script>
+    window.onload = () => {
+        setTimeout(() => {
+            window.location = "https://www.mbank.kg"; // сайт, если приложение не установлено
+        }, 500);
+    };
+</script>
 </body>
 </html>
